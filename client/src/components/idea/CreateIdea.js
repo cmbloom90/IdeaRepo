@@ -10,7 +10,7 @@ class CreateIdea extends React.Component {
 
   render() {
     return (
-      <div className="ui raised segment">
+      <div className="ui raised segment" style={{ backgroundColor: "#81E43B" }}>
         <h1>
           <u>Create an Idea</u>
         </h1>

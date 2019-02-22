@@ -30,7 +30,7 @@ class IdeaList extends React.Component {
         <div
           className="item"
           key={idea.id}
-          style={{ backgroundColor: "#8dc7d8cf" }}
+          style={{ backgroundColor: "#f7d161a1" }}
         >
           {this.renderAdmin(idea)}
           <i className="large middle aligned icon lightbulb" />
@@ -59,11 +59,11 @@ class IdeaList extends React.Component {
 
   render() {
     return (
-      <div className="ui raised segment">
+      <div className="ui raised segment" style={{ backgroundColor: "#C3A0DE" }}>
         <h1>
           <u>The Ideas</u>
         </h1>
-        <div className="ui large celled list">{this.renderList()}</div>
+        <div className="ui large animated celled list">{this.renderList()}</div>
         {this.renderCreate()}
       </div>
     );
