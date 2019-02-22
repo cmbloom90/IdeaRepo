@@ -1,0 +1,20 @@
+{
+  "ideas": [
+    {
+      "title": "Test",
+      "author": "Cameron",
+      "language": "React",
+      "description": "This is a test submission",
+      "userId": "104853791242751289253",
+      "id": 1
+    },
+    {
+      "title": "IDEA Repo",
+      "author": "Cameron",
+      "language": "React/Redux",
+      "description": "A way to keep track of your project ideas and see what other people are working on.",
+      "userId": "104853791242751289253",
+      "id": 2
+    }
+  ]
+}
